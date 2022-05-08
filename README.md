@@ -13,4 +13,4 @@
 
 ## Ссылка на сайт
 
-https://kimer1990.github.io/russian-travel/index.html
+https://kimer1990.github.io/photo-course/index.html
