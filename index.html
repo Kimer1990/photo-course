@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Курс по фотографии</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <img class="header__logo" src="vendor/images/logo.svg" alt="Логотип" />
+      <nav class="header__navigation">
+        <a class="header__link" href="#composition">Композиция</a>
+        <a class="header__link" href="#camera">Камера</a>
+        <a class="header__link" href="#orders">Поиск заказов</a>
+      </nav>
+      <button class="header__menu"></button>
+    </header>
+    <main class="content">
+      <section class="course">
+        <h1 class="course__title">Курс по фотографии</h1>
+        <p class="course__description">
+          Фотография в природных условиях, уроки по композиции и по пользованию
+          камерой.
+        </p>
+        <form action="#composition">
+          <button type="submit" class="button">Подробнее</button>
+        </form>
+        <img
+          class="course__photo"
+          src="vendor/images/course-photo.png"
+          alt="Автомобильная дорога в хвойном лесу"
+        />
+      </section>
+      <section class="composition">
+        <p class="composition__index" id="composition">Композиция</p>
+        <h2 class="composition__title">Изучите композицию</h2>
+        <p class="composition__description">
+          Вы изучите гармоничное размещение всех элементов изображения на
+          <span class="composition__description_bold">снимке</span>.
+        </p>
+        <p class="composition__description">
+          Изучите композицию интуитивную и&nbsp;какие-то&nbsp;определённые
+          законы.
+        </p>
+        <form action="#sign-up">
+          <button type="submit" class="button">Записаться!</button>
+        </form>
+        <img
+          class="composition__photo"
+          src="vendor/images/composition-photo.png"
+          alt="Хвойный лес в тумане"
+        />
+        <ul class="composition__list-of-tips">
+          <li class="composition__tip">
+            Правило третей, при котором нужно распологать объекты на
+            пересечениях.
+          </li>
+          <li class="composition__tip">
+            Простота: убирай всё лишнее и кадрируй!
+          </li>
+          <li class="composition__tip">
+            Равновесие: уравновесь пятна объекта и фона.
+          </li>
+          <li class="composition__tip">
+            3D глубина кадра: расположи объект позади и перед другими
+            предметами.
+          </li>
+        </ul>
+      </section>
+      <section class="camera">
+        <p class="camera__index" id="camera">камера</p>
+        <h2 class="camera__title">Настройка Съемка Обработка</h2>
+        <p class="camera__subtitle">отзывы про часть о камерах:</p>
+        <img
+          class="camera__photo"
+          src="vendor/images/camera-photo.png"
+          alt="Густой лес"
+        />
+        <ul class="camera__comments-container">
+          <li class="camera__comment">
+            <div>
+              <blockquote class="camera__comment-text">
+                на этом курсе я научился пользоватся камерой, как&nbsp;настоящий
+                <br />профессионал!
+              </blockquote>
+              <p class="camera__comment-author">Питер, водитель.</p>
+              <p class="camera__comment-mail">@piter123</p>
+            </div>
+          </li>
+          <li class="camera__comment">
+            <div>
+              <blockquote class="camera__comment-text">
+                супер крутой курс! на&nbsp;части&nbsp;про&nbsp;фотики
+                я&nbsp;стал&nbsp;разбираться в предназначении кнопок
+              </blockquote>
+              <p class="camera__comment-author">Джон, спортсмен.</p>
+              <p class="camera__comment-mail">@john_sport</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="orders">
+        <p class="orders__index" id="orders">поиск заказов</p>
+        <h2 class="orders__title">Научим находить заказы!</h2>
+        <img
+          class="orders__photo"
+          src="vendor/images/orders-photo.png"
+          alt="Крона дерева"
+        />
+        <p class="orders__description">
+          Мы научим вас искать заказы на всяких фриланс биржах, а когда вы
+          сделаете крутое портфолио, мы поможем найти постоянную работу.
+        </p>
+        <form action="#sign-up">
+          <button type="submit" class="button">Записаться!</button>
+        </form>
+      </section>
+      <section class="sign-up">
+        <img
+          class="sign-up__icon"
+          src="vendor/images/arrow-icon.svg"
+          alt="Стрелочка"
+        />
+        <h2 class="sign-up__title">Записаться!</h2>
+        <h2 class="sign-up__title">Сейчас!</h2>
+        <form class="sign-up__form" name="sign-up">
+          <input
+            name="email"
+            class="sign-up__form-field"
+            type="text"
+            placeholder="Ваша почта"
+          />
+          <button class="sign-up__form-button">Записаться!</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">2021 Photo-lessons.</p>
+    </footer>
+    <div class="nav-popup">
+      <img class="nav-popup__logo" src="vendor/images/logo.svg" alt="Лого" />
+      <nav class="nav-popup__links">
+        <a class="nav-popup__link" href="#composition">Композиция</a>
+        <a class="nav-popup__link" href="#camera">Камера</a>
+        <a class="nav-popup__link" href="#orders">Поиск заказов</a>
+      </nav>
+      <button class="nav-popup__close"></button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
