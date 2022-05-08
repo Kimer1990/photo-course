@@ -32,6 +32,7 @@ navPopupClose.addEventListener('click', function() {
   closePopup(navPopup);
 });
 
-signUpButton.addEventListener('click', function() {
+signUpButton.addEventListener('click', function(evt) {
+  evt.preventDefault();
   signUpCheck(signUpField);
 });
