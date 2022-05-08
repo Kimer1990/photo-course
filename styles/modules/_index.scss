@@ -121,7 +121,6 @@
     width: 169px;
     height: 40px;
     font-size: 14px;
-    line-height: 28px;
   }
 
   &:hover {
@@ -342,7 +341,7 @@
     line-height: 28px;
 
     @include tabletStyles {
-      max-width: 278px;
+      max-width: none;
       padding: 0 0 29px 0;
       margin: 0 0 30px 0;
       border-bottom: 1px solid $fontBlack;
@@ -355,6 +354,7 @@
     }
 
     @include mobileStyles {
+      max-width: 278px;
       padding: 0 0 13px 0;
       margin: 0 0 14px 0;
       font-size: 14px;
@@ -480,8 +480,6 @@
 
     @include mobileStyles {
       margin: 60px 0 0 0;
-      font-size: 14px;
-      line-height: 20px
     }
   }
 

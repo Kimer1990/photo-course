@@ -163,7 +163,6 @@
     width: 169px;
     height: 40px;
     font-size: 14px;
-    line-height: 28px;
   }
 }
 
@@ -465,7 +464,7 @@
 
 @media (max-width: 1439px) {
   .composition__tip {
-    max-width: 278px;
+    max-width: none;
     padding: 0 0 29px 0;
     margin: 0 0 30px 0;
     border-bottom: 1px solid #000000;
@@ -479,6 +478,7 @@
 
 @media (max-width: 767px) {
   .composition__tip {
+    max-width: 278px;
     padding: 0 0 13px 0;
     margin: 0 0 14px 0;
     font-size: 14px;
@@ -648,8 +648,6 @@
 @media (max-width: 767px) {
   .camera__comments-container {
     margin: 60px 0 0 0;
-    font-size: 14px;
-    line-height: 20px;
   }
 }
 
